@@ -1,0 +1,374 @@
+@charset 'utf-8';
+$app-background :#FFFFFF;
+
+
+
+body{
+    background: $app-background;
+}
+
+.gradient-msg-style{
+    color:$app-background;
+}
+
+a{
+    text-decoration: none !important;
+    background-color: transparent;
+}
+.login-nav-textstyles{
+    font-size: 10px;
+}
+.login-nav{
+    list-style-type: none;
+    display: inline-flex;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    letter-spacing: 1px;
+    margin-left: 15px;
+    padding-right: 10px;
+    padding-left: 161px;
+}
+.nav-styles{
+    list-style-type: none;
+    display: inline-flex;
+    position: absolute;
+    right: 0%;
+    top: -12%;
+    letter-spacing: 1px;
+    margin-left: 15px;
+    padding-right: 30px;
+    padding-left: 161px;
+}
+
+
+.li-loginnew{
+    position: relative;
+    right: 15%;
+}
+.li-login-Faq{
+    position: relative;
+    right: 10%;
+}
+
+.li-login-blog{
+    position: relative;
+    right: 5%;
+}
+.li-login-login{
+    position: relative;
+    right: 0%;
+}
+
+.li-featurestyle{
+    position: relative;
+    right: 10%;
+}
+.li-resourcestyle{
+    position: relative;
+    right: 8%;
+}
+.li-solutionsstyle{
+    position: relative;
+    right: 6%;
+}
+.li-integrationsstyle{
+    position: relative;
+    right: 4%;
+}
+.li-pricingstyle{
+    position: relative;
+    right: 2%;
+}
+.li-creatingbuttonstyle{
+    position: relative;
+    right: 0%;
+}
+
+.welcome-banner-container{
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 15px;
+}
+
+.welcome-container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.welcome-image-style{
+    width: 100%;
+}
+
+/////////////////
+.navbar-styles{
+    top: 22px;
+    background: #f5f5f5 !important;
+    border: none !important;
+}
+
+.nav-position{
+    position: relative;
+    top: 75px;
+}
+
+.features-compartment{
+    position: relative;
+    top: 80px;
+}
+
+.ul-features-styles{
+    float: right !important;
+}
+
+.features-list-color{
+    color: #FD7862 !important;
+}
+
+.button-style{
+    float: right;
+    background-color:#FE8655;
+    border: none;
+    position: relative;
+    top: 7px;
+    height: 35px;
+    color: #fff;
+}
+.welcome-banner-area{
+    margin-top: 21px;
+    min-height: 585px;
+}
+
+.card {
+    border: none;
+    background: transparent;
+  }
+
+  .img-style{
+    position: absolute;
+    left: 40px;
+    top:3px;
+  }
+
+  .welcome-msg-style{
+    position: relative;
+    left: 12px;
+  }
+  .welcome-bnr-style{
+    position: relative;
+    left: 12px;
+  }
+
+  .trailbutton-style{
+    background-image: url(../images/gradient-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 7px;
+    height: 35px;
+    color: #fff;
+}
+
+.trial-msg-style{
+    position: absolute;
+    bottom: -27%;
+}
+
+.menu-styles{
+    font-size: 14px;
+}
+.menu-color{
+    color:black;
+   }
+
+a.menu-color:hover{
+    border-bottom: 1px solid #FD7862;
+    border-radius: 0px;
+    border-width: 3px;
+   }
+
+   a.features-list-color:hover{
+    border-bottom: 1px solid #FD7862;
+    border-radius: 0px;
+    border-width: 3px;
+   }
+
+.banner-logo-style{
+    position: relative;
+    top: 120px;
+    left: 75px;
+    height: 75px;
+   }
+.banner-title-styles{
+    position: absolute;
+    top: 225px;
+    left: 85px;
+}
+
+.banner-spec-styles{
+    position: absolute;
+    top: 310px;
+    left: 84px;
+}
+.gtco-feature {
+    margin-top: 100px;
+}
+
+.comapartment-three-style{
+    position: relative;
+    top: 325px;
+}
+
+.comaprtment-three-image{
+  width: 80%;
+}
+
+.comapartment-three-des-stlyle{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 2;
+}
+
+.compartment-four-styles{
+    position: relative;
+    top: 235px;
+}
+
+.marketplce-msg-align{
+    float: right;
+}
+
+.integration-title-header{
+    text-align: center;
+}
+
+.compartmnt-six-style{
+    padding: 15px;
+    margin-bottom: 18px;
+    font-size: 21px;
+    font-weight: 200;
+    line-height: 2.1428571435;
+    background-color: #eee;
+}
+
+.compartmnt-six-btnstyle{
+    background-color: #fff;
+    color: #FF9A44;
+    border: none;
+    position: relative;
+    top: -25px;
+    height: 35px;
+}
+
+.brand-address-style{
+    font-size: 12px;
+    /* font-weight: bold; */
+    line-height: 2;
+    position: absolute;
+    left: 30px;
+}
+
+.about-list-styles{
+    position: relative;
+    left: 16px;
+}
+
+.nav>li>a:hover{
+    background-color:transparent !important;
+  
+}
+
+.footer-style{
+    height: 40px;
+    background-color: black;
+    position: relative;
+    top: -18px; 
+}
+.footer-info-style{
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    position: relative;
+    top: 14px;
+}
+
+.social-mdediaicon-style{
+    position: relative;
+    font-size: 25PX;
+    top: 5px;
+    left: 5px;
+}
+.social{
+    margin-top: -5px;
+    text-align: right;
+}
+.social-ul-style{
+    list-style-type: none;
+    display: inline-flex;
+    position: relative;
+    right: 8%;
+    top: 124px;
+    cursor: pointer;
+}
+
+
+.social-icon2{
+    position: relative;
+    font-size: 25PX;
+    top: 5px;
+    left: 10px;
+    cursor: pointer;
+}
+
+.social-icon3{
+    position: relative;
+    font-size: 25PX;
+    top: 5px;
+    left: 15px;
+    cursor: pointer;
+}
+
+.social-icon4{
+    position: relative;
+    font-size: 25PX;
+    top: 5px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.social-icon5{
+    position: relative;
+    font-size: 25PX;
+    top: 5px;
+    left: 25px;
+    cursor: pointer;
+}
+
+
+.gradient-align{
+    width: 100%;
+    height: 250px;
+}
+.gradient-bg{
+    background-image: url("../images/gradient-bg.png");
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.comapny-platformlist-styles{
+    background-color: #4A4A4A;
+    position: relative;
+    top: -18px;
+}
+
+.comapny-platformlist-align{
+    top: 40px;
+}
+
+.btn:hover, .btn:focus {
+     color: #fff; 
+    text-decoration: none;
+    border:none;
+}
